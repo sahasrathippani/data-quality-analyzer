@@ -1,13 +1,13 @@
 
 import pandas as pd
 
-def get_report(data, get_numeric_values, check_missing_values, duplicate_value, get_data):
+def get_report(data, get_numeric_values, check_missing_values, duplicate_value, get_data, report_path):
 
     data_summary = get_data(data)
     missing_table = check_missing_values(data)
     numeric_summary = get_numeric_values(data)
 
-    with open("report.txt", "w") as file:
+    with open(report_path, "w") as file:
         file.write("Data Quality Report\n")
         file.write("===================\n\n")
 
@@ -31,5 +31,5 @@ def get_report(data, get_numeric_values, check_missing_values, duplicate_value, 
             file.write("No numeric columns found.")
 
     print("Report generated successfully!")
-    with open("report.txt", "r") as file:
+    with open(report_path, "r") as file:
         print(file.read())

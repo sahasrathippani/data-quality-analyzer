@@ -1,0 +1,24 @@
+Data Quality Report
+===================
+
+DATASET INFORMATION
+-------------------------------------------------------
+Total Rows       : 5
+Total Columns    : 5
+Duplicate Rows   : 1
+
+Duplicate rows: 1
+
+Missing values:
+         missing_count  missing_percentage
+Brand                0                 0.0
+Model                0                 0.0
+Year                 0                 0.0
+Price                0                 0.0
+Mileage              0                 0.0
+
+---------------
+         Minimum  Maximum       Mean     Median
+Year        2021     2023     2022.0     2022.0
+Price    1200000  1800000  1540000.0  1500000.0
+Mileage    12000    20000    16000.0    15000.0

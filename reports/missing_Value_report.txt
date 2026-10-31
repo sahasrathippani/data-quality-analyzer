@@ -1,0 +1,22 @@
+Data Quality Report
+===================
+
+DATASET INFORMATION
+-------------------------------------------------------
+Total Rows       : 6
+Total Columns    : 4
+Duplicate Rows   : 1
+
+Duplicate rows: 1
+
+Missing values:
+        missing_count  missing_percentage
+Name                0            0.000000
+Age                 1           16.666667
+Salary              1           16.666667
+City                1           16.666667
+
+---------------
+        Minimum  Maximum     Mean   Median
+Age        21.0     24.0     22.4     22.0
+Salary  25000.0  35000.0  28600.0  28000.0
