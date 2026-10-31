@@ -1,0 +1,20 @@
+Data Quality Report
+===================
+
+DATASET INFORMATION
+-------------------------------------------------------
+Total Rows       : 5
+Total Columns    : 4
+Duplicate Rows   : 0
+
+Duplicate rows: 0
+
+Missing values:
+              missing_count  missing_percentage
+Brand                     0                 0.0
+Model                     0                 0.0
+Fuel_Type                 0                 0.0
+Transmission              0                 0.0
+
+---------------
+No numeric columns found.
